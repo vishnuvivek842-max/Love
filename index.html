@@ -6,32 +6,62 @@
 <title>❤️ To My Love ❤️</title>
 
 <style>
-body{
+*{
     margin:0;
-    padding:20px;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
     font-family:Arial,sans-serif;
-    background:linear-gradient(to bottom,#ffe6f0,#fff);
+    background:linear-gradient(135deg,#ffe6ec,#fff5f8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    padding:20px;
+}
+
+.card{
+    background:#fff;
+    max-width:600px;
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,.15);
+    padding:25px;
     text-align:center;
 }
-.card{
-    max-width:500px;
-    margin:auto;
-    background:#fff;
-    padding:25px;
-    border-radius:20px;
-    box-shadow:0 0 15px rgba(255,0,100,.2);
-}
-img{
-    width:250px;
-    border-radius:15px;
-    margin:20px 0;
-}
+
 h1{
     color:#e91e63;
+    margin-bottom:20px;
 }
+
+img{
+    width:100%;
+    max-width:350px;
+    border-radius:15px;
+    border:5px solid #ffb6c1;
+    margin-bottom:20px;
+}
+
 p{
     font-size:18px;
-    line-height:1.6;
+    line-height:1.7;
+    color:#333;
+    margin-bottom:15px;
+}
+
+.highlight{
+    color:#d81b60;
+    font-weight:bold;
+    font-size:22px;
+}
+
+.footer{
+    font-weight:bold;
+    color:#e91e63;
+    margin-top:20px;
 }
 </style>
 </head>
@@ -47,20 +77,25 @@ p{
 <p><b>Hey Kutty,</b></p>
 
 <p>
-If you're reading this, it means you found my little surprise. 💖<br>
+If you're reading this, it means you found my little surprise. 💖<br><br>
+
 Every day with you feels special.<br>
+
 Your smile makes my world brighter. 🌸
 </p>
 
-<p><b>I LOVE YOU MORE THAN WORDS CAN SAY. ❤️</b></p>
-
-<p>
-No matter what happens, I'll always be there for you.
+<p class="highlight">
+I LOVE YOU MORE THAN WORDS CAN SAY. ❤️
 </p>
 
 <p>
-<b>Forever & Always,</b><br>
-<b>Your Macha ❤️</b>
+No matter what happens,<br>
+I'll always be there for you.
+</p>
+
+<p class="footer">
+Forever &amp; Always,<br>
+Your Macha ❤️
 </p>
 
 </div>
